@@ -54,7 +54,7 @@ public class InvoiceRestController {
     @Autowired
     InvoiceResponseMapper irspm;
 
-    @Operation(description = "Return all invoices bundled into Response", summary = "Return 204 if no data found")
+    @Operation(description = "Return all invoices bundled into Response", summary = "Return 204 if no data found.")
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Exito"),
         @ApiResponse(responseCode = "500", description = "Internal error")})
